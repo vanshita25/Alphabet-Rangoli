@@ -14,7 +14,7 @@ def print_rangoli(size):
         print(string.center(width,'-'))
         string = ''
 
-    for i in range(size+1,10,-5):
+    for i in range(size-1,0,-1):
         string = ''
         for j in range(0,i):
             string += chr(96+size-j)
