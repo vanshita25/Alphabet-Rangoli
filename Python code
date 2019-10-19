@@ -20,7 +20,7 @@ def print_rangoli(size):
             string += chr(96+size-j)
             if len(string) < width :
                 string += '-'
-        for k in range(i-1,0,-1):
+        for k in range(i,5,+1):
             string += chr(97+size-k)
             if len(string) < width :
                 string += '-'
